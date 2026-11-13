@@ -34,7 +34,7 @@ Note for the laptop: the password there may contain a `/`, which must be written
 `%2F` in a connection URI or libpq misreads the host. The PC's password has no
 special characters, so `.env` here needs no encoding.
 
-## Done (2026-09-02, by Claude at Steven's request)
+## Done (2026-09-02)
 
 - [x] **README.md** — architecture, setup, data model, and an "Engineering notes"
       section documenting the non-obvious bugs and why the fixes are what they are.
@@ -99,7 +99,7 @@ WHERE minute IN (10, 15)
 ORDER BY match_id, puuid, minute, timestamp_ms
 ```
 
-### 2. ML notebook — `notebooks/exploration.ipynb` — **Steven's, not Claude's**
+### 2. ML notebook — `notebooks/exploration.ipynb`
 Deliberately left alone; this is the part interviewers will ask about. Numbers
 below are from the current database (194 matches, patches 16.4–16.16), not the
 older 154-row dataset the original list was written against.
